@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "name": "asyncpokedex",
+      "path": "asyncpokedex"
+    },
+    {
+      "name": "asynctrivia",
+      "path": "asynctrivia"
+    },
+    {
+      "name": "burgershackserversd",
+      "path": "burgershackserversd"
+    },
+    {
+      "name": "digimonapi",
+      "path": "digimonapi"
+    },
+    {
+      "name": "giftedlab",
+      "path": "giftedlab"
+    },
+    {
+      "name": "summer25_gregslist_async",
+      "path": "summer25_gregslist_async"
+    }
+  ]
+}
