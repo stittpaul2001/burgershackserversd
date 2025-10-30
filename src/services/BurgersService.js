@@ -1,3 +1,4 @@
+import { Error } from "mongoose"
 import { dbContext } from "../db/DbContext.js"
 
 
@@ -14,7 +15,8 @@ class BurgersService {
 
   async getOneBurger(burgerId) {
     const burger = await dbContext.Burgers.findById(burgerId)
-    if (!burger) throw new console.error(`There is no burger with that Id: ${burgerId}`);
+    if (!burger)
+      throw new Error(`There is no burger with that Id: ${burgerId}`)
 
   }
 
